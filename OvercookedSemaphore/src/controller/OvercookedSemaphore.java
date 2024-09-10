@@ -29,11 +29,16 @@ public class OvercookedSemaphore extends Thread{
         {
             int percentage = (int)(timing / 0.1d);
             int count = 1;
-            for (int x = 0; x < percentage; x++)
+            for (int x = 0; x < 100; x += percentage)
             {
                 sleep(100);
                 System.out.println("A " + this.food + " está " + (percentage * count) + "% concluída...");
                 count++;
+
+                if (x + percentage >= 100)
+                {
+                    percentage = 100;
+                }
             }
             System.out.println("A " + this.food + " está pronta!");
         }
