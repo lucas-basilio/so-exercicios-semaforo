@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OvercookedSemaphore/OvercookedSemaphore.iml" filepath="$PROJECT_DIR$/OvercookedSemaphore/OvercookedSemaphore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SemaphoreRequests/SemaphoreRequests.iml" filepath="$PROJECT_DIR$/SemaphoreRequests/SemaphoreRequests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/so-exercicios-semaforo.iml" filepath="$PROJECT_DIR$/.idea/so-exercicios-semaforo.iml" />
+    </modules>
+  </component>
+</project>
